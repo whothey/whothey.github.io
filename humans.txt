@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Gabriel Henrique Rudey --  -- @whothey_
 
 # THANKS
 
-    <name>
+    
 
 # TECHNOLOGY COLOPHON
 
