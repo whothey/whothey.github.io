@@ -1,0 +1,36 @@
+/* @import "palletes/colorized"; */
+/* @import "palletes/blugreenrized"; */
+/* @import "palletes/pastelled"; */
+@import "palletes/semisolar";
+
+h1 .tagged {
+    color: $middle-color;
+}
+
+body {
+    font-family: 'VT323';
+    font-size: 130%;
+    background-color: $darker-color;
+    color: $light-color;
+    padding-left: 10px;
+}
+
+.tag {
+    &:before {
+        content: '<';
+    }
+
+    &:after {
+        content: '>';
+    }
+}
+
+.tag-close {
+    &:before {
+        content: '</';
+    }
+
+    &:after {
+        content: '>';
+    }
+}
