@@ -1,0 +1,24 @@
+/* @import "palletes/colorized"; */
+/* @import "palletes/blugreenrized"; */
+/* @import "palletes/pastelled"; */
+h1 .tagged {
+  color: #f07b3f; }
+
+body {
+  font-family: 'VT323';
+  font-size: 130%;
+  background-color: #2d4059;
+  color: #ffd460;
+  padding-left: 10px; }
+
+.tag:before {
+  content: '<'; }
+
+.tag:after {
+  content: '>'; }
+
+.tag-close:before {
+  content: '</'; }
+
+.tag-close:after {
+  content: '>'; }
